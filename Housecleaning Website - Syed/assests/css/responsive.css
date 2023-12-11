@@ -1,0 +1,29 @@
+/* going to have to see later how to put the responsive component into a different CSS file  */
+@media only screen and (max-width: 1300px) {
+  .explosion {
+    position: relative;
+    left: 200px;
+    bottom: 550px;
+    width: 472px;
+    height: 550px;
+    background-size: 125%;
+    background-repeat: no-repeat;
+} 
+footer {
+  width: 1300px;
+}
+.hero-image{
+  width: 1300px;
+}
+ .home_intro,
+ .home_findservice,
+ .testimonials,
+ .trust-priority,
+ .steps-away
+ {
+ width: 1300px;
+ }
+}
+
+
+

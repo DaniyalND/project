@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/assests/css/clean.css"> 
+    <link rel="icon" href="/assests/img/logo.png" type="image/x-png"> <!--configure logo to the tab--> 
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Space+Mono&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@900&family=Space+Mono&display=swap" rel="stylesheet">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Style+Script&display=swap" rel="stylesheet">
+
+
+    <!--icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+
+</head>
+
+
+<body>
+
+<div id="wrapper">
+
+    <header>
+        <a href="index.html">
+            <img src="/assests/img/logo.png" alt="logo">
+        </a>  <!--that's what an anchor tag is for, to make elements clickable-->
+      
+
+        <nav>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Services
+                
+                    <div class="dropdown">
+                        <a href="regular-cleans.html" class="nav-regular">Regular Cleans</a>
+                        <a href="deep-cleans.html">Deep Cleans</a>
+                        <a href="terms-and-conditions.html">Terms & Conditions</a>
+                    </div>
+                
+                </li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="specials.html">Specials</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+    
+    
+    
+            </ul>
+    
+            <form>
+
+                <a href="tel:(847) 978-6288"> <input type="button" name="contact" id="nav-contact-us" value="Contact Us"> </a>
+            </form>
+        </nav>
+    </header>
+  
+    <section class="contact-container">
+
+        <h1> Contact Clean & Sweep </h1>
+
+
+        <p> Clean & Sweep is a trusted residental cleaning service based in Elgin, IL and
+            serving surrounding areas. <br> <br> Call (847) 978-6288 to get a free estimate or 
+            use the form below to email us!
+        </p>
+
+
+        
+    
+    </section>
+
+
+
+    <section class="form-container">
+
+        <div class="business-info">
+            <img src="/assests/img/clean-space.jpg">
+
+
+        
+            <span class="business-name">Clean & Sweep<span> 
+            <br>
+            <br>
+            <p> Elgin, IL 60120 </p>
+
+            <br>
+            <br>
+            <span> Call us </span>
+
+            <br>
+
+            <a href="tel:(847) 978-6288"> 
+                <!-- to have link direct them to the appropriate phone application stored on their local computer  -->
+                <b>Phone: </b>
+                (847) 978-6288
+            </a>
+
+
+            <br>
+            <br>
+                
+            <span>Email us</span>
+            <br>
+
+            <a href="mailto:support@cleansweep.com">
+                <b>Email: </b>
+                support@cleansweep.com
+            </a>
+
+            <br>
+            <span>Hours: Monday - Friday, 9am - 5pm</span>
+
+        
+
+
+
+
+        </div>
+
+
+        <div class="fill-form">
+
+            <form action="https://webdevbasics.net/scripts/pacific.php" method="post"> 
+
+                <label for="name"> <span class="asterik"> *</span>  <span class="name-label"> Name </span>  </label>
+    
+            
+                <label for="myFirstName"> First </label>
+                <input type="text" name="myFirstName" id="myFirstName" required>
+                
+    
+                <label for="myLastName"> Last </label>
+                <input type="text" name="myLastName" id="myLastName" required>
+    
+    
+                <label for="myPhone"> <span class="asterik">*</span>  <span class="phone-label"> Phone </span>  </label>
+                <input type="tel" name="myPhone" id="myPhone" required>
+    
+    
+                <label for="myEmail">  <span class="asterik">*</span>  <span class="email-label"> Email </span>  </label>
+                <input type="email" name="myEmail" id="myEmail" required>
+    
+    
+                <label for="myMessage">  <span class="asterik">*</span>  <span class="messages-label"> Messages/Suggestions</span>  </label>
+                <textarea name="myMessage" id="myMessage" cols="50" row="40" required></textarea>
+    
+    
+                
+                 <!--  <label for="security"> <span class="asterik">*</span>  <span class="security-label"> Security Check </span>  </label>
+                <span> 2 + 6 = </span> <input type="security" name="security" id="security" required>
+                <input type="hidden" readonly="8" value="8"> -->
+    
+                <input type="submit" name="submit" id="submit" value="Submit">
+    
+    
+    
+    
+    
+    
+            </form>
+    
+        </div>
+        
+    </section>
+
+
+   
+    
+    <footer>
+        <img src="assests/img/logo-transparent.png" height="150">
+    
+        <p class="copyright">Copyright &copy; 2023 Clean & Sweep. All rights reserved.</p>
+    
+        <div class="contact-info">
+            <span class="material-symbols-outlined" id="phone">call</span>
+            <a href="tel:(847) 978-6288" class="contact-link">(847) 978-6288</a>
+    
+            <span class="material-symbols-outlined" id="mail">mail</span>
+            <a href="mailto:support@cleansweep.com" class="contact-link">support@cleansweep.com</a>
+        </div>
+    
+    </footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
